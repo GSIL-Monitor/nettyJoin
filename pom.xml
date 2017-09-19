@@ -12,9 +12,13 @@
         <module>nettyClient</module>
         <module>nettyServer</module>
         <module>commonUtil</module>
+        <module>commonTest</module>
     </modules>
     <properties>
         <com.netty.commonUtil>1.0.0</com.netty.commonUtil>
+        <com.netty.commonTest>1.0.0</com.netty.commonTest>
+        <com.netty.nettyServer>1.0.0</com.netty.nettyServer>
+        <com.netty.nettyClient>1.0.0</com.netty.nettyClient>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -22,6 +26,21 @@
                 <groupId>com.netty</groupId>
                 <artifactId>commonUtil</artifactId>
                 <version>${com.netty.commonUtil}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netty</groupId>
+                <artifactId>nettyClient</artifactId>
+                <version>${com.netty.nettyClient}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netty</groupId>
+                <artifactId>commonTest</artifactId>
+                <version>${com.netty.commonTest}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netty</groupId>
+                <artifactId>nettyServer</artifactId>
+                <version>${com.netty.nettyServer}</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>

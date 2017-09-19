@@ -12,6 +12,7 @@
     <groupId>com.netty</groupId>
     <artifactId>nettyClient</artifactId>
     <packaging>jar</packaging>
+    <version>1.0.0</version>
 
     <dependencies>
         <dependency>

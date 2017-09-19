@@ -11,10 +11,10 @@
 
     <groupId>com.netty</groupId>
     <artifactId>commonUtil</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>1.0.0</version>
-    <modules>
-        <module>../commonTest</module>
-    </modules>
 
+    <dependencies>
+
+    </dependencies>
 </project>
