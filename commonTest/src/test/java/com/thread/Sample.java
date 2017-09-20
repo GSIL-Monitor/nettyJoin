@@ -6,7 +6,7 @@ import com.model.Counter;
  * @author xuxinbin
  * @version $$Id: nettyJoin, v 0.1 2017/9/14 10:01 xuxinbin Exp $$
  */
-public class Example {
+public class Sample {
     public static void main(String[] args) {
         testOneInstance();
 
