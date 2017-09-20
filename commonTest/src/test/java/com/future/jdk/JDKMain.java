@@ -9,7 +9,7 @@ import java.util.concurrent.FutureTask;
  * @author xuxinbin
  * @version $$Id: nettyJoin, v 0.1 2017/9/19 15:30 xuxinbin Exp $$
  */
-public class Main {
+public class JDKMain {
 
     public static void main(String[] args) {
         FutureTask<String> futureTask = new FutureTask<String>(new RealDataCollableImpl("a"));
@@ -17,7 +17,6 @@ public class Main {
         executorService.submit(futureTask);
         System.out.println("线程已经启动");
         try {
-            System.out.println("睡两秒");
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
