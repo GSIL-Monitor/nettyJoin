@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.0.RELEASE</version>
+    </parent>
+
     <groupId>com.netty</groupId>
     <artifactId>nettyJoin</artifactId>
     <packaging>pom</packaging>
@@ -13,15 +19,22 @@
         <module>nettyServer</module>
         <module>commonUtil</module>
         <module>commonTest</module>
+        <module>webHome</module>
+        <module>dao</module>
+        <module>domain</module>
     </modules>
     <properties>
         <com.netty.commonUtil>1.0.0</com.netty.commonUtil>
         <com.netty.commonTest>1.0.0</com.netty.commonTest>
         <com.netty.nettyServer>1.0.0</com.netty.nettyServer>
         <com.netty.nettyClient>1.0.0</com.netty.nettyClient>
+        <com.netty.webHome>1.0.0</com.netty.webHome>
+        <com.netty.dao>1.0.0</com.netty.dao>
+        <com.netty.domain>1.0.0</com.netty.domain>
     </properties>
     <dependencyManagement>
         <dependencies>
+            <!-- 项目本身的module start -->
             <dependency>
                 <groupId>com.netty</groupId>
                 <artifactId>commonUtil</artifactId>
@@ -43,6 +56,33 @@
                 <version>${com.netty.nettyServer}</version>
             </dependency>
             <dependency>
+                <groupId>com.netty</groupId>
+                <artifactId>webHome</artifactId>
+                <version>${com.netty.webHome}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netty</groupId>
+                <artifactId>dao</artifactId>
+                <version>${com.netty.dao}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netty</groupId>
+                <artifactId>domain</artifactId>
+                <version>${com.netty.domain}</version>
+            </dependency>
+            <!-- 项目本身的module end -->
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+                <!--<version>2.0.0.RELEASE</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
+
+
+            <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
                 <version>4.1.14.Final</version>
@@ -52,6 +92,11 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>18.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.4.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -80,6 +125,14 @@
                             </goals>
                         </execution>
                     </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <configuration><!-- 指定该Main Class为全局的唯一入口 -->
+                        <mainClass>com.Main</mainClass>
+                        <layout>ZIP</layout>
+                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
