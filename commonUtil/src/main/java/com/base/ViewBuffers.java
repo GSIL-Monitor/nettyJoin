@@ -1,4 +1,4 @@
-package com.common;
+package com.base;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

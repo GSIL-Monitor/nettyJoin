@@ -118,6 +118,14 @@
             </dependency>
             <!-- mysql end -->
 
+            <!-- redis start -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>2.0.0.RELEASE</version>
+            </dependency>
+            <!-- redis end -->
+
             <!-- fastjson start -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -125,6 +133,7 @@
                 <version>1.2.47</version>
             </dependency>
             <!-- fastjson end -->
+
 
         </dependencies>
     </dependencyManagement>
