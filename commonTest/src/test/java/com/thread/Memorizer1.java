@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/04/09 9:17 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/04/09 9:17 anthony_xu Exp $$
  */
 public class Memorizer1<A, V> {
 

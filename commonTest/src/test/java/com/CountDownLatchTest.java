@@ -5,8 +5,8 @@ import java.util.concurrent.CountDownLatch;
 /**
  * 闭锁 CountDownLatch小测试
  *
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/04/05 9:16 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/04/05 9:16 anthony_xu Exp $$
  */
 public class CountDownLatchTest {
     private static CountDownLatch start = new CountDownLatch(1);

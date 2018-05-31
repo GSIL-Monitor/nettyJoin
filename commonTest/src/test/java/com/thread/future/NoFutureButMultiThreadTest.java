@@ -9,8 +9,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 假设该场景：
  *  我现在即想挂机打怪，又想写作业
  *
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/05 22:41 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/05 22:41 anthony_xu Exp $$
  */
 public class NoFutureButMultiThreadTest {
 

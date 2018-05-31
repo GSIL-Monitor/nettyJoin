@@ -1,8 +1,8 @@
 package com.domain.model;
 
 /**
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/15 13:16 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/15 13:16 anthony_xu Exp $$
  */
 public class FundModel {
 

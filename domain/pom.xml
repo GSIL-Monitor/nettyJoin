@@ -15,6 +15,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.netty</groupId>
+            <artifactId>dao</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
         </dependency>

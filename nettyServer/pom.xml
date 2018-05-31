@@ -22,6 +22,11 @@
             <groupId>com.netty</groupId>
             <artifactId>domain</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.netty</groupId>
+            <artifactId>dao</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>io.netty</groupId>

@@ -8,8 +8,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * 学习阻塞队列和线程池
  *
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/06 0:39 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/06 0:39 anthony_xu Exp $$
  */
 public class BlockingQueueAndThreadPool {
 

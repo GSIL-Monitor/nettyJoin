@@ -16,8 +16,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/15 9:38 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/15 9:38 anthony_xu Exp $$
  */
 @Controller
 public class FundController {

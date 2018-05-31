@@ -98,6 +98,34 @@
                 <artifactId>httpclient</artifactId>
                 <version>4.4.1</version>
             </dependency>
+
+            <!-- mysql start -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>1.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.35</version>
+            </dependency>
+            <!-- alibaba的druid数据库连接池 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>1.1.0</version>
+            </dependency>
+            <!-- mysql end -->
+
+            <!-- fastjson start -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.47</version>
+            </dependency>
+            <!-- fastjson end -->
+
         </dependencies>
     </dependencyManagement>
 
@@ -132,6 +160,17 @@
                     <configuration><!-- 指定该Main Class为全局的唯一入口 -->
                         <mainClass>com.Main</mainClass>
                         <layout>ZIP</layout>
+                    </configuration>
+                </plugin>
+                <!-- mybatis generator 自动生成代码插件 -->
+                <plugin>
+                    <groupId>org.mybatis.generator</groupId>
+                    <artifactId>mybatis-generator-maven-plugin</artifactId>
+                    <version>1.3.2</version>
+                    <configuration>
+                        <configurationFile>src/main/resources/generatorConfig.xml</configurationFile>
+                        <overwrite>true</overwrite>
+                        <verbose>true</verbose>
                     </configuration>
                 </plugin>
             </plugins>

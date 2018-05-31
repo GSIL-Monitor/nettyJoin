@@ -12,8 +12,8 @@ import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/06 21:51 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/06 21:51 anthony_xu Exp $$
  */
 public class PressureTest {
 

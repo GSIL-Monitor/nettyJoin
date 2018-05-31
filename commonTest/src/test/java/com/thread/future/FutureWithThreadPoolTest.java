@@ -20,8 +20,8 @@ import java.util.concurrent.TimeUnit;
  *  我现在即想挂机打怪，又想写作业
  *  但是有好多个游戏需要挂机（可以用线程池来实现）
  *
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/05 22:18 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/05 22:18 anthony_xu Exp $$
  */
 public class FutureWithThreadPoolTest {
 

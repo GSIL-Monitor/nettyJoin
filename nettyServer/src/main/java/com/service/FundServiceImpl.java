@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author wb-xxb255887
- * @version $$Id: bkpartner-parent, v 0.1 2018/05/15 13:20 wb-xxb255887 Exp $$
+ * @author anthony_xu
+ * @version $$Id: bkpartner-parent, v 0.1 2018/05/15 13:20 anthony_xu Exp $$
  */
 @Service
 public class FundServiceImpl implements FundService {
