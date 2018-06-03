@@ -1,8 +1,8 @@
 package com.classloader;
 
 /**
- * @author wb-xxb255887
- * @create $ID: ClassLoaderTest, v0.1 2018年06月02日 23:45 wb-xxb255887 Exp $
+ * @author anthony_xu
+ * @create $ID: ClassLoaderTest, v0.1 2018年06月02日 23:45 anthony_xu Exp $
  */
 public class ClassLoaderTest {
 

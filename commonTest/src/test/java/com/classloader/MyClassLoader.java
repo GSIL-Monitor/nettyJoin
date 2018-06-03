@@ -3,8 +3,8 @@ package com.classloader;
 import java.io.InputStream;
 
 /**
- * @author wb-xxb255887
- * @create $ID: MyClassLoader, v0.1 2018年06月02日 23:44 wb-xxb255887 Exp $
+ * @author anthony_xu
+ * @create $ID: MyClassLoader, v0.1 2018年06月02日 23:44 anthony_xu Exp $
  */
 public class MyClassLoader extends ClassLoader {
 

@@ -1,26 +1,21 @@
 package com.redis;
 
-import com.Main;
 import com.netty.dao.pojo.User;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringBootConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author wb-xxb255887
- * @create $ID: RedisTest, v0.1 2018年05月31日 21:26 wb-xxb255887 Exp $
+ * @author anthony_xu
+ * @create $ID: RedisTest, v0.1 2018年05月31日 21:26 anthony_xu Exp $
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
